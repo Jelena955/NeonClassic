@@ -533,8 +533,8 @@ function provera(e){
     else{
         if(!reBrojOsoba.test(brosoba)){
             
-            brosobagr.innerHTML = "Broj osoba nije u dobrom formatu (npr 5)";
-            greske.push("broj osoba nije ok");
+            brosobagr.innerHTML = "Broj osoba nije u dobrom formatu  i sme biti najviše 11";
+            greske.push("Broj osoba nije ok");
         }else{
         brosobagr.innerHTML = "";
 
@@ -558,20 +558,20 @@ function provera(e){
         }
         else{
             if(razdvojenDatum[2]<danas.getFullYear() ) {
-                vrdatumgr.innerHTML = "Datum mora biti u buducnosti";
+                vrdatumgr.innerHTML = "Datum mora biti u budućnosti";
                 greske.push("datum nije ok");
                 
                }
                else{
                    if(razdvojenDatum[2]==danas.getFullYear()&& razdvojenDatum[1]<danas.getMonth()+1){
-                    vrdatumgr.innerHTML = "Datum mora biti u buducnosti";
+                    vrdatumgr.innerHTML = "Datum mora biti u budućnosti";
                     greske.push("datum nije ok");
                    }
 
                    else{
                        if(razdvojenDatum[2]==danas.getFullYear()&&razdvojenDatum[1]==danas.getMonth()+1&&razdvojenDatum[0]<danas.getDate()){
 
-                        vrdatumgr.innerHTML = "Datum mora biti u buducnosti";
+                        vrdatumgr.innerHTML = "Datum mora biti u budućnosti";
                         greske.push("datum nije ok");
 
                        }
