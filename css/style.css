@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    text-decoration: none !important;
+    
+   }
+   *:not(.ikonica){
+
+    font-family: fantasy !important;
+
+   }
+   
+   body{
+    background-color: black;
+
+   }
+   #naslovna{
+       background-color:black ;
+       margin-top: -30%;
+   }
+
+   #naslovna #logo{
+   
+   display: flex !important;
+   
+   }
+
+   .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fa0780, 0 0 40px #f0057a, 0 0 50px #f80a81, 0 0 60px #f31a91, 0 0 70px #f01a85;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f73294, 0 0 40px #fa3b9b, 0 0 50px #fc3b9c, 0 0 60px #f52b90, 0 0 70px #f33292, 0 0 80px #fc3799;
+    }
+  }
+  #blokovi{
+      padding: 0px;
+  }
+  #blokovi .blok{
+      
+  
+      padding:50px;
+     
+
+  }
+
+  #blok0{
+    border-top:5px solid #fa0780; 
+    margin-top: 100px;
+  }
+  
+  
+  #blokovi .bloks{
+    padding: 0px !important;
+   
+}
+#blokovi .bl{
+  padding-left: 150px !important;
+ 
+}
+.gloww {
+    border-bottom:5px solid #fa0780;
+    line-height: 200px;
+    
+    
+  }
+  
+  @keyframes gloww {
+    from {
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fa0780, 0 0 40px #f0057a, 0 0 50px #f80a81, 0 0 60px #f31a91, 0 0 70px #f01a85;
+    }
+    to {
+      box-shadow: 0 0 20px #fff, 0 0 30px #f73294, 0 0 40px #fa3b9b, 0 0 50px #fc3b9c, 0 0 60px #f52b90, 0 0 70px #f33292, 0 0 80px #fc3799;
+    }}
+
+
+  
+  #meni{
+    z-index: 1;
+    position: absolute;
+    top:8px;
+    left:70%;
+  }
+
+  #meni .link{
+   color:greenyellow !important;
+   
+  }
+  #meniside{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    padding-top: 50px;
+  }
+  #meniside .link{
+    color:greenyellow !important;
+    
+   }
+  #meni .bojica{
+    color:#fa3b9b !important;
+  }
+  #meniside .bojica{
+    color:#fa3b9b !important;
+  }
+
+  #old{
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 2px solid yellowgreen;
+  }
+  #old h2{
+    text-align: center;
+    color:#f80a81
+  }
+  #slike .slicice{
+    width:15% !important;
+    cursor: pointer;
+   
+  }
+  #slike2 .slicice{
+    width:15% !important;
+    cursor: pointer;
+   
+  }
+  #slike{
+    z-index: 0;
+  }
+  #proba{
+    z-index: 1;
+    position:fixed;
+    width:600px;
+    height:620px;
+    background-color: yellow;
+    top:50px;
+  }
+  #proba2{
+    z-index: 1;
+    position:fixed;
+    width:600px;
+    height:620px;
+    background-color: rgb(0,255,255);
+    top:50px;
+  }
+
+ .probica{
+   
+    width:600px;
+    height:600px;
+   
+  }
+  .probica2{
+    width:600px;
+    height:600px;
+
+  }
+   .iksic{
+    font-size: 15px;
+    cursor:pointer;
+
+  }
+  .tekstovi{
+    text-align: center;
+    font-size: 2vw;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0,255,255, 0.74);
+    filter: blur(0.5px);
+    filter: brightness(0.7);
+    letter-spacing: 1.5px;
+  
+    
+  }
+
+  .link{
+    font-size: 15px;
+    
+  }
+  .naslovi{
+    text-align: center;
+    font-size: 3vw;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0,255,255, 0.74) ;
+    filter: blur(0.5px);
+    filter: brightness(0.7);
+    letter-spacing: 1.5px;
+    padding-top: 15px;
+  
+    text-shadow: 4px 4px 6px rgb(0,255,255, 0.74)
+  }
+.formakon{
+  width:50% !important;
+  margin: 0px auto !important;
+
+}
+
+.validate{
+  box-shadow: 4px 4px 6px rgb(0,255,255, 0.74)!important;
+  border-bottom: 1px solid rgb(0,255,255,074) !important;
+  color:rgba(250,59,155,0.74)
+
+}
+.labela{
+  color:rgb(0,255,255) !important;
+}
+#dugme{
+  background-color:rgba(250,59,155,0.74)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
+}
+
+#autor{
+  border-top:5px solid #fa0780; 
+  margin-top: 50px;
+}
+
+#autorslika{
+  width:300px
+}
+#autortekst{
+  font-size: 2vw;
+  -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(250,59,155) ;
+    filter: blur(0.5px);
+    filter: brightness(0.7);
+    letter-spacing: 1.5px;
+}
+
+#futer{
+  border-top:5px solid #fa0780; 
+ 
+}
+.ikonica{
+  
+  font-size: 50px;
+  color:#fa0780; 
+  padding-top: 100px;
+  padding-bottom:40px;
+}
+
+#ikonice{
+  width:500px;
+}
+#kontakt{
+  padding-bottom:40px;
+  width:600px;
+
+}
+#kontakt h3{
+  font-size: 20px;
+  color:yellowgreen;
+}
+
+#kopi h6{
+  font-size: 15px;
+  padding:15px;
+  margin-right: 10px;
+  color:#fa0780;
+}
+#meniside li{
+width:30%;
+  margin:0.5rem auto !important;
+  padding-top:20px
+}
+#hamburger{
+  z-index: 1;
+  position: fixed;
+    top:8px;
+    left:90%;
+}
+.linija{
+  
+  width:30px;
+  height:3px;
+  
+ 
+
+}
+
+
+#rezervacija h5{
+font-size: 30px;
+text-align: center;
+-webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0,255,255, 0.74);
+    filter: blur(0.5px);
+    filter: brightness(0.7);
+    letter-spacing: 1.5px;
+    padding-top: 15px;
+    text-shadow: 4px 4px 6px rgb(0,255,255, 0.74);
+}
+
+
+
+#kontakt{
+  display: flex;
+  text-align: center;
+  
+}
+#linija1{
+  background-color:#f01a85
+}
+#linija2{
+  background-color:rgb(0,255,255)
+}
+#linija3{
+  background-color:yellowgreen
+
+}
+#hamburgerotvoren{
+  z-index: 1;
+  width: 200px;
+  height: 500px;
+  position: fixed;
+  background-color: black;
+  border:2px solid yellowgreen;
+ 
+  right: 0%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  #glows{
+    font-size: 40px;
+  }
+
+  #proba{
+    width:400px;
+    height:420px;
+  }
+
+  .probica{
+    width:400px;
+    height:400px;
+  }
+
+  #proba2{
+    width:300px;
+    height:420px;
+  }
+
+  .probica2{
+    width:300px;
+    height:400px;
+  }
+
+  .tekstovi{
+    font-size: 4vw;
+  }
+  .naslovi{
+
+    font-size: 5vw;
+
+  }
+
+  #kontakt {
+
+    display: block !important;
+
+    width:300px;
+    
+    
+  }
+
+  #kontakt h3{
+    margin:0px auto;
+
+  }
+
+  #autortekst {
+
+    font-size: 20px;
+  }
+
+  .ikonica{
+    font-size: 30px;
+  }
+
+  
+
+
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+#proba{
+  width:250px;
+  height:270px;
+}
+
+.probica{
+  width:250px;
+  height:280px;
+}
+
+#proba2{
+  width:250px;
+  height:270px;
+}
+
+.probica2{
+  width:250px;
+  height:250px;
+}}
+
+
+
+
+@media screen and (max-width: 350px) {
+
+
+  #ikonice{
+    width:150px !important;
+  }
+
+  #autortekst {
+
+    font-size: 15px;
+  }
+
+  #kontakt{
+    width:200px;
+    
+  }
+
+  #kontakt h3{
+    font-size: 10px
+  }
+  #kopi h6{
+    font-size: 10px;
+  }
+}
+
+
+  
+
+ 
+  
+
+  
