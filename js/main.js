@@ -194,28 +194,19 @@ for(i=0;i<slike.length;i++){ //dodavanje dogadjaja za efekat glow na slike za pr
         
     
 }
-//funkcija za pojavljivanje bordure prelaskom preko misa
-function hover(elem){
-    $(elem).mouseenter(function hoverdoku (){
+//funkcija za pojavljivanje bordure prelaskom preko misa preko jquerija i hover();
+function predjem(elem){
+    $(elem).hover(function hoverdoku (){
+      
+            $(elem).css("border-bottom", "2px solid yellowgreen")},
+            function hovernedoku (){$(elem).css("border-bottom","")} )}
 
-        //console.log("fdvd")
-        $(elem).css("border-bottom", "2px solid yellowgreen")
-    })
 
-}
-//funkcija za sklanjanje bordure kada se vise ne prelazi misem
-function hoverne(elem){
-    $(elem).mouseout(function hovernedoku (){
 
-        //console.log("fdvd")
-        $(elem).css("border-bottom", "")
-    })
 
-}
-hover("#dokumentacija");
-hover("#sajtmep");
-hoverne("#dokumentacija");
-hoverne("#sajtmep");
+predjem("#dokumentacija");
+predjem("#sajtmep");
+
 
 
 ispisForme(); //dinamicki ispis forme
